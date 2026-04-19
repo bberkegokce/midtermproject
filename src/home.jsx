@@ -21,7 +21,7 @@ export default function Home() {
       <div className="flex flex-col sm:flex-row gap-8 mt-12">
         
         <Link to="/characters" className="relative group flex items-center justify-center">
-          {/* Animated Background Swirl */}
+          
           <div className="absolute inset-0 bg-[#00ff9d] rounded-2xl blur-xl opacity-50 group-hover:opacity-100 transition duration-500"></div>
           <div className="relative px-12 py-5 bg-[#00ff9d] text-black font-black rounded-2xl transition-all transform hover:scale-110 overflow-hidden">
             

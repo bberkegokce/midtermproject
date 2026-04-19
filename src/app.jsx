@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route, Link, useNavigate } from 'react-router-dom';
-import Home from './Home';
+import Home from './home';
 import CharacterList from './character';
 import CharacterDetail from './detail';
-import Trivia from './Trivia';
+import Trivia  from './trivia';
 
 const RandomPortalButton = () => {
   const navigate = useNavigate();
