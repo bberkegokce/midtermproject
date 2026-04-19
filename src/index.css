@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  color: white;
+  font-family: sans-serif;
+}
+@layer utilities {
+  .animate-portal-swirl {
+    animation: portal-swirl 3s linear infinite;
+  }
+}
+
+@keyframes portal-swirl {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Custom Portal Texture */
+.portal-gradient {
+  background: radial-gradient(circle, #4ade80 10%, #166534 40%, #064e3b 90%);
+  box-shadow: 0 0 20px #4ade80, inset 0 0 15px #bef264;
+}
+/* Specific card styles from our previous design */
+.card-gradient {
+  background: linear-gradient(135deg, rgba(31, 41, 55, 1) 0%, rgba(17, 24, 39, 1) 100%);
+}
+}
