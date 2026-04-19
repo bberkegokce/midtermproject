@@ -8,9 +8,9 @@ export default function Home() {
       </div>
       
       <h1 className="text-5xl sm:text-7xl md:text-[120px] font-black mb-4 tracking-tighter leading-none text-white drop-shadow-[0_10px_20px_rgba(0,0,0,0.8)] uppercase">
-        Rick and <br />
+        Rick and Morty <br />
         <span className="text-transparent bg-clip-text bg-linear-to-r from-[#00ff9d] to-[#00d1ff] animate-pulse">
-          Morty
+          
         </span>
       </h1>
 
